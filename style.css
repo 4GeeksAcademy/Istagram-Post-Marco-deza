@@ -1,5 +1,6 @@
-body {
-    margin: 50%;
+body {display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
 }
 
@@ -9,6 +10,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
+    height: 200px;
 }
 
 .contenedorcaja {
@@ -17,8 +20,6 @@ body {
     justify-content: space-between;
     background-color: white;
     color: black;
-
-    margin: 50px;
 }
 
 .Escritura {
@@ -66,9 +67,14 @@ body {
 
 }
 
-.FootersIcono {
-    display: flex;
-    margin-left: 5%;
+.FootersIconos {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.FootersIconos2{
+    margin-right:5px;
+    margin-top:10px;
 }
 
 .descripcion {
